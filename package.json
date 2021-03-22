@@ -1,0 +1,31 @@
+{
+    "name": "gruvy-theme",
+    "displayName": "Gruvy Theme",
+    "description": "A theme trying to match the amazing Gruvy Theme for Windows 10 by niivu on deviantArt. I have zero experience in this so I used the OneDark-Dark+ theme from brandonjmatthews and edited some colors. All credits to him and Binaryify OneDark-Pro theme.",
+    "version": "0.0.1",
+    "publisher": "tepaseointenso",
+    "repository": "https://github.com/tepaseointenso/GruvyTheme",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Gruvy Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/gruvy-theme.json"
+            }
+        ]
+    },
+    "icon": "icon.png",
+    "keywords": [
+        "gruvy",
+        "niivu",
+        "theme",
+        "tepaseointenso",
+        "dark"
+    ]
+}
